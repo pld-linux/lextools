@@ -8,7 +8,7 @@ Group:		Applications/Text
 # from http://www.research.att.com/cgi-bin/access.cgi/as/vt/ext-software/www-ne-license.cgi?table.lextools.binary
 Source0:	%{name}.linux.i386.tar.gz
 URL:		http://www.research.att.com/sw/tools/lextools/
-ExclusiveArch:	i686 athlon
+ExclusiveArch:	i686 athlon pentium3 pentium4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
