@@ -4,9 +4,9 @@ Name:		lextools
 Version:	1.0
 Release:	1
 License:	Free for educational use, non-distributable
+Group:		Applications/Text
 # from http://www.research.att.com/cgi-bin/access.cgi/as/vt/ext-software/www-ne-license.cgi?table.lextools.binary
 Source0:	%{name}.linux.i386.tar.gz
-Group:		Applications/Text
 URL:		http://www.research.att.com/sw/tools/lextools/
 ExclusiveArch:	i686 athlon
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
