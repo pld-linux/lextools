@@ -1,5 +1,5 @@
 Summary:	Toolkit for finite-state linguistic analysis
-Summary(pl):	Zestaw narzêdzi do analizy jêzyków stanów skoñczonych
+Summary(pl):	Zestaw narzêdzi do analizy jêzyków skoñczonych
 Name:		lextools
 Version:	1.0
 Release:	1
@@ -14,6 +14,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Lextools is a package of tools for creating weighted finite-state
 transducers from high-level linguistic descriptions.
+
+%description -l pl
+Lextools to pakiet narzêdzi to tworzenia wa¿onych transducerów
+skoñczonych z opisów jêzykowych wysokiego poziomu.
 
 %prep
 %setup -q -c
