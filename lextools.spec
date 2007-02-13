@@ -1,5 +1,5 @@
 Summary:	Toolkit for finite-state linguistic analysis
-Summary(pl.UTF-8):   Zestaw narzędzi do analizy języków skończonych
+Summary(pl.UTF-8):	Zestaw narzędzi do analizy języków skończonych
 Name:		lextools
 Version:	1.0
 Release:	1
